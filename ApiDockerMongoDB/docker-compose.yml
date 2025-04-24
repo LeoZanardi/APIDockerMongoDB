@@ -5,7 +5,7 @@ services:
     image: mongo:6
     container_name: APIDockers
     ports:
-      - "27017:27017"  # Mongo estará acessível na porta padrão
+      - "27070:27017"
     networks:
       - app_network
 
